@@ -1,29 +1,35 @@
-# Demoblaze Testing Report
+# 🛒 Demoblaze Testing Report
 
-## Introduction
-### Website Overview: Demoblaze
+---
+
+## 🌟 Introduction
+
+### 📄 Website Overview: **Demoblaze**
+
 1. **Website URL**: [https://www.demoblaze.com/index.html](https://www.demoblaze.com/index.html)  
 2. **Purpose of the Website**:
    - Demoblaze is a simple online store showcasing various products such as laptops, phones, and other electronic devices.
 3. **Key Features of the Website**:
-   - Homepage displays a list of products with images, names, and prices.
-   - Ability to add products to a shopping cart.
-   - Separate pages to view product details.
-   - User account registration and login functionality.
-   - Ability to place orders.
-   - Contact functionality for user inquiries.
+   - 🖼️ Homepage displays a list of products with images, names, and prices.
+   - 🛒 Ability to add products to a shopping cart.
+   - 🔍 Separate pages to view product details.
+   - 👤 User account registration and login functionality.
+   - 🛍️ Ability to place orders.
+   - 📩 Contact functionality for user inquiries.
 4. **Testing Objectives**:
-   - Functional evaluation, UI/UX assessment, and security analysis.
+   - ✅ Functional evaluation, UI/UX assessment, and security analysis.
 5. **Testing Tools Used**:
-   - Web browsers: Chrome, Firefox, Edge (desktop and mobile modes).
-   - Automation tools: Selenium.
+   - 🌐 Web browsers: Chrome, Firefox, Edge (desktop and mobile modes).
+   - 🤖 Automation tools: Selenium.
 
 ---
 
-## Bug Identification
+## 🐞 Bug Identification
+
 To streamline the improvement process, the identified bugs have been categorized into **functional**, **UI**, and **security** issues.
 
-### Functional Bugs
+### 🔧 Functional Bugs
+
 #### **Bug 1:** Additional product images are not displayed
 - **Description:** When viewing a product's details, other product images are not displayed.
 - **Steps to Reproduce:**
@@ -58,7 +64,7 @@ To streamline the improvement process, the identified bugs have been categorized
 #### **Bug 5:** Console error notification
 - **Description:** When the console is opened in Chrome, the following error appears:
 
-```
+```plaintext
 VIDEOJS: WARN: A plugin named "reloadSourceOnError" already exists.
 (anonymous) @ video.min.js:12
 ...
@@ -70,7 +76,8 @@ VIDEOJS: WARN: A plugin named "reloadSourceOnError" already exists.
 
 ---
 
-### UI Bugs
+### 🎨 UI Bugs
+
 #### **Bug 6:** Oversized username and password fields in mobile view
 - **Description:** The fields in the "Sign up" form are larger than the form size in mobile view.
 - **Steps to Reproduce:**
@@ -124,7 +131,8 @@ VIDEOJS: WARN: A plugin named "reloadSourceOnError" already exists.
 
 ---
 
-### Security Bugs
+### 🔒 Security Bugs
+
 #### **Bug 14:** Logging in as Admin
 - **Description:** It is possible to log in as an admin with the credentials `Username: admin` and `Password: admin`.
 - **Steps to Reproduce:**
@@ -135,49 +143,51 @@ VIDEOJS: WARN: A plugin named "reloadSourceOnError" already exists.
 
 ---
 
-## Test Plan
-### Objectives
+## 🧪 Test Plan
+
+### 🎯 Objectives
 - Identify and report functional, UI, and security issues on the website.
 
-### Scope
-Includes:
+### 📋 Scope
+**Includes:**
 - Homepage functionality
 - User registration and login
 - Adding products to the cart
 - Purchase workflow
 - Contact form functionality
 
-Excludes:
+**Excludes:**
 - Server-side functionality
 - Backend performance tests
 
-### Test Strategy
+### ⚙️ Test Strategy
 - **Manual Testing:**
   - Exploratory and intuitive testing for detailed UI inspection.
   - Black-box techniques like equivalence partitioning and decision tables.
 - **Automated Testing:**
   - Selenium for repetitive tasks.
 
-### Tools
+### 🛠 Tools
 - Selenium
 - Chrome (desktop and mobile modes)
 - Firefox (desktop and mobile modes)
 - Edge
 
-### Success/Failure Criteria
+### ✅ Success/Failure Criteria
 - Registration form accepts only valid inputs.
 - Purchase workflow works seamlessly across browsers.
 - Contact form successfully sends messages.
 - Login functionality works correctly with valid credentials.
 
-### Deliverables
+### 📄 Deliverables
 - Bug reports
 - Test case documentation
 - Overall site performance report
 
 ---
 
-## Test Cases
+## 📋 Test Cases
+
 ### **Test Case 1: Add to Cart Button**
 - **Objective:** Verify the functionality of the "Add to Cart" button.
 - **Preconditions:** Browser is open, and the website is loaded.
@@ -226,3 +236,5 @@ Excludes:
 - **Steps:**
   1. Click on "Log out."
 - **Expected Result:** User is logged out, and the "Log in" button is displayed.
+
+---
