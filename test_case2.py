@@ -13,7 +13,8 @@ users = [
     {"username": "testuser", "password": "testpassword"},
     {"username": "newtestuser", "password": "newtestpassword"},
     {"username": "erfanshafiee", "password": "123456"},
-    {"username": "erfansh", "password": "erfan12345"}
+    {"username": "erfansh", "password": "erfan12345"},
+    {"username": "erfansha", "password": "12345"}
 ]
 signup_button = driver.find_element(By.ID, "signin2")
 signup_button.click()
