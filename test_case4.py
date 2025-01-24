@@ -22,7 +22,7 @@ alert.accept()
 
 cart = driver.find_element(By.XPATH, '/html/body/nav/div/div/ul/li[4]/a')
 cart.click()
-sleep(2)
+sleep(5)
 
 delete_button = driver.find_element(By.XPATH, "//a[text()='Delete']")
 delete_button.click()
